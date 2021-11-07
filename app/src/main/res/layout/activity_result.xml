@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Result"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/trophy">
+    <TextView
+        android:id="@+id/txtCong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hey! Congratulation "
+        android:textSize="30sp"
+        android:padding="30dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/txtParticipentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="30dp"/>
+    <TextView
+        android:id="@+id/txtMarks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marks"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+</LinearLayout>
